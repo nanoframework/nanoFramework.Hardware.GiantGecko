@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>nanoFramework.Hardware.GiantGecko</id>
+    <version>$version$</version>
+    <title>nanoFramework.Hardware.GiantGecko</title>
+    <authors>nanoframework</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE.md</license>
+    <releaseNotes>
+    </releaseNotes>
+    <readme>docs\README.md</readme>
+    <developmentDependency>false</developmentDependency>
+    <projectUrl>https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko</projectUrl>
+    <icon>images\nf-logo.png</icon>
+    <repository type="git" url="https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko" commit="$commit$" />
+    <copyright>Copyright (c) .NET Foundation and Contributors</copyright>
+    <description>This package includes the nanoFramework.Hardware.GiantGecko assembly for nanoFramework C# projects.
+This package requires a target with nanoFramework.Hardware.GiantGecko v$nativeVersion$ (checksum $checksum$).</description>
+    <tags>nanoFramework C# csharp netmf netnf GiantGecko</tags>
+    <dependencies>
+      <dependency id="nanoFramework.CoreLibrary" version="1.12.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="nanoFramework.Hardware.GiantGecko\bin\Release\nanoFramework.Hardware.GiantGecko.dll" target="lib\nanoFramework.Hardware.GiantGecko.dll" />
+    <file src="nanoFramework.Hardware.GiantGecko\bin\Release\nanoFramework.Hardware.GiantGecko.pdb" target="lib\nanoFramework.Hardware.GiantGecko.pdb" />
+    <file src="nanoFramework.Hardware.GiantGecko\bin\Release\nanoFramework.Hardware.GiantGecko.pdbx" target="lib\nanoFramework.Hardware.GiantGecko.pdbx" />
+    <file src="nanoFramework.Hardware.GiantGecko\bin\Release\nanoFramework.Hardware.GiantGecko.pe" target="lib\nanoFramework.Hardware.GiantGecko.pe" />
+    <file src="nanoFramework.Hardware.GiantGecko\bin\Release\nanoFramework.Hardware.GiantGecko.xml" target="lib\nanoFramework.Hardware.GiantGecko.xml" />
+    <file src="assets\readme.txt" target="" />
+    <file src="README.md" target="docs\" />
+    <file src="assets\nf-logo.png" target="images" />
+    <file src="LICENSE.md" target="" />
+  </files>
+</package>
