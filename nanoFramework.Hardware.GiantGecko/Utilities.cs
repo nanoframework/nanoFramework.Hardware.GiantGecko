@@ -31,7 +31,7 @@ namespace nanoFramework.Hardware.GiantGecko
             {
                 if (_deviceUniqueId == null)
                 {
-                    _deviceUniqueId = new byte[16];
+                    _deviceUniqueId = new byte[8];
                     NativeGetDeviceUniqueId(_deviceUniqueId);
                 }
 
