@@ -2,7 +2,16 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.3...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.5...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#6](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/pull/6)
+- Update 1 NuGet dependencies [\#3](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/pull/3)
+
+## [v1.0.5](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/tree/v1.0.5) (2022-10-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.3...v1.0.5)
 
 **Documentation and other chores:**
 
