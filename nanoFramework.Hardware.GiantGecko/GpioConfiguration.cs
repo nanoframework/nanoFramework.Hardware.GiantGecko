@@ -3,7 +3,6 @@
 // See LICENSE file in the project root for full license information.
 //
 
-using System;
 using System.Runtime.CompilerServices;
 
 namespace System.Device.Gpio
@@ -11,7 +10,7 @@ namespace System.Device.Gpio
     /// <summary>
     /// Class exposing various configurations for GPIO pins.
     /// </summary>
-    public static class GpioConfigurations
+    public static class GpioConfiguration
     {
         /// <summary>
         /// Set slewrate limit for GPIO pin. Higher values represent faster slewrates.
