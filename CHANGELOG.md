@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.5...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.9...HEAD)
+
+**Implemented enhancements:**
+
+- Add API to set GPIO slewrate and drive strength [\#7](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/pull/7)
+
+## [v1.0.9](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/tree/v1.0.9) (2022-12-27)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.GiantGecko/compare/v1.0.5...v1.0.9)
 
 **Documentation and other chores:**
 
