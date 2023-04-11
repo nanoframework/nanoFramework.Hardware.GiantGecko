@@ -14,23 +14,23 @@ namespace nanoFramework.Hardware.GiantGecko
     public static class GpioConfiguration
     {
         /// <summary>
-        /// Set slewrate limit for GPIO pin. Higher values represent faster slewrates.
+        /// Set slewrate limit for the GPIO port that a GPIO pin belongs to. Higher values represent faster slewrates.
         /// </summary>
-        /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
+        /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin.</param>
         /// <param name="slewRateLimit">Value of slewrate limit. Value has to be between 0 and 7.</param>
         /// <exception cref="InvalidOperationException">If the GPIO <paramref name="pin"/> hasn't been opened before with the appropriate GPIO API.</exception>
-        /// <exception cref="ArgumentException">If the slewRateLimit is &lt; 0 or &gt; 7.</exception>
+        /// <exception cref="ArgumentException">If the <paramref name="slewRateLimit"/> is &lt; 0 or &gt; 7.</exception>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public extern static void SetSlewRate(
             int pin,
             byte slewRateLimit);
 
         /// <summary>
-        /// Set slewrate limit for GPIO pin using alternate modes. Higher values represent faster slewrates.
+        /// Set slewrate limit for alternate modes of a GPIO port that a GPIO pin  belongs to. Higher values represent faster slewrates.
         /// </summary>
         /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
         /// <param name="slewRateLimit">Value of slewrate limit. Value has to be between 0 and 7.</param>
-        /// <exception cref="ArgumentException">If the slewRateLimit is &lt; 0 or &gt; 7.</exception>
+        /// <exception cref="ArgumentException">If the <paramref name="slewRateLimit"/> is &lt; 0 or &gt; 7.</exception>
         /// <remarks>No checking will be performed if the GPIO <paramref name="pin"/> is being used in an alternate funcion. That will be up to the caller.</remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public extern static void SetSlewRateAlternate(
@@ -38,7 +38,7 @@ namespace nanoFramework.Hardware.GiantGecko
             byte slewRateLimit);
 
         /// <summary>
-        /// Set drive strength setting for GPIO pin.
+        /// Set drive strength setting for the GPIO port that a GPIO pin belongs to.
         /// </summary>
         /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
         /// <param name="driveStrenght">Drive strenght setting.</param>
@@ -49,7 +49,7 @@ namespace nanoFramework.Hardware.GiantGecko
             DriveStrenght driveStrenght);
 
         /// <summary>
-        /// Set drive strength setting for GPIO pin using alternate modes.
+        /// Set drive strength setting for alternate modes of GPIO port that a GPIO pin  belongs to.
         /// </summary>
         /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
         /// <param name="driveStrenght">Drive strenght setting.</param>
