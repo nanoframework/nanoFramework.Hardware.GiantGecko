@@ -29,8 +29,8 @@ namespace nanoFramework.Hardware.GiantGecko
         /// </summary>
         /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
         /// <param name="slewRateLimit">Value of slewrate limit. Value has to be between 0 and 7.</param>
-        /// <exception cref="InvalidOperationException">If the GPIO <paramref name="pin"/> hasn't been opened before with the appropriate GPIO API.</exception>
         /// <exception cref="ArgumentException">If the slewRateLimit is &lt; 0 or &gt; 7.</exception>
+        /// <remarks>No checking will be performed if the GPIO <paramref name="pin"/> is being used in an alternate funcion. That will be up to the caller.</remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public extern static void SetSlewRateAlternate(
             int pin,
@@ -52,7 +52,7 @@ namespace nanoFramework.Hardware.GiantGecko
         /// </summary>
         /// <param name="pin">Pin number of the general-purpose I/O (GPIO) pin</param>
         /// <param name="driveStrenght">Drive strenght setting.</param>
-        /// <exception cref="InvalidOperationException">If the GPIO <paramref name="pin"/> hasn't been opened before with the appropriate GPIO API.</exception>
+        /// <remarks>No checking will be performed if the GPIO <paramref name="pin"/> is being used in an alternate funcion. That will be up to the caller.</remarks>
         [MethodImpl(MethodImplOptions.InternalCall)]
         public extern static void SetDriveStrenghtAlternate(
             int pin,
