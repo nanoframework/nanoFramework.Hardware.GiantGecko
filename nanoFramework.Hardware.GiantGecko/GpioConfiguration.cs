@@ -5,7 +5,7 @@
 
 using System.Runtime.CompilerServices;
 
-namespace System.Device.Gpio
+namespace nanoFramework.Hardware.GiantGecko
 {
     /// <summary>
     /// Class exposing various configurations for GPIO pins.
