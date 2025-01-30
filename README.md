@@ -10,7 +10,7 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Hardware.GiantGecko | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.GiantGecko/_apis/build/status/nanoFramework.Hardware.GiantGecko?branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.GiantGecko/_build/latest?definitionId=100&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.GiantGecko.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.GiantGecko/)  |
+| nanoFramework.Hardware.GiantGecko | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.GiantGecko/_apis/build/status/nanoFramework.Hardware.GiantGecko?branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.GiantGecko/_build/latest?definitionId=100&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.GiantGecko.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.GiantGecko/) |
 
 ## Feedback and documentation
 
@@ -31,6 +31,6 @@ The **nanoFramework** Class Libraries are licensed under the [MIT license](LICEN
 This project has adopted the code of conduct defined by the Contributor Covenant to clarify expected behaviour in our community.
 For more information see the [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct).
 
-### .NET Foundation
+## .NET Foundation
 
 This project is supported by the [.NET Foundation](https://dotnetfoundation.org).
